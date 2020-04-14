@@ -1,4 +1,6 @@
-FROM continuumio/miniconda3:4.7.12
+FROM continuumio/miniconda3:4.8.2
+
+RUN conda update python
 
 RUN conda install --yes \
     -c conda-forge \
