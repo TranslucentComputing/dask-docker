@@ -1,4 +1,4 @@
-TAG ?= 1.0.1
+TAG ?= 1.0.3
 REGISTRY ?= gcr.io/tcinc-dev
 IMGNAME ?= dask
 IMAGE ?= $(REGISTRY)/$(IMGNAME)
